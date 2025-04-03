@@ -1,6 +1,7 @@
-**AutoShutdownAndStartup**
+# **AutoShutdownAndStartup**
 
-**Overview**
+## **Overview**
+
 This Python script is designed to manage the power state of a **Windows cloud server** by:
 - **Starting up** when a user logs in after **6:00 AM**.
 - **Monitoring user logins after 11:30 PM** and shutting down the system **if no logins occur within 30 minutes**.
@@ -10,7 +11,7 @@ This Python script is designed to manage the power state of a **Windows cloud se
 This script ensures that the server is operational during the day and powers off when it's no longer needed, optimizing power consumption.
 
 ---
-## Features
+### Features
 **Automatic Startup Handling** - The script detects user logins and prevents unnecessary wake-ups before 6:00 AM.
 
 **Intelligent Shutdown Management** - If no logins occur within **30 minutes after 11:30 PM**, the script shuts down the server.
