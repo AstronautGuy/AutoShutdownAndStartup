@@ -20,7 +20,7 @@ install_if_missing(["pywin32", "psutil"])
 
 # Function to start the server in the morning
 def start_server_morning():
-    wake_time = datetime.strptime("08:00:00", "%H:%M:%S").time()
+    wake_time = datetime.strptime("07:00:00", "%H:%M:%S").time()
     now = datetime.now().time()
 
     while now < wake_time:
